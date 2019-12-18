@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    
+img {
+    width: 400px;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(50%);
+}
+.spread {
+  position: absolute;
+  right: 50%;
+  transform-origin: 175px 120px;
+  transition: all 0.5s 0.1s;
+}
+.spread,
+ .unit {
+  transition: all 0.6s;
+}
+.spread:nth-child(1) {
+  transition-delay: 0.02s;
+  transform: rotate(141.11111deg);
+}
+.spread:nth-child(1) .unit {
+  transition-delay: 0.04s;
+  transform: rotate(653.88889deg);
+  transform: translate(-11px, 120px);
+}
+.spread:nth-child(2) {
+  transition-delay: 0.04s;
+  transform: rotate(162.22222deg);
+}
+.spread:nth-child(2) .unit {
+  transition-delay: 0.08s;
+  transform: rotate(632.77778deg);
+  transform: translate(75px, 107px);
+}
+.spread:nth-child(3) {
+  transition-delay: 0.06s;
+  transform: rotate(183.33333deg);
+}
+.spread:nth-child(3) .unit {
+  transition-delay: 0.12s;
+  transform: rotate(611.66667deg);
+  transform: translate(75px, 64px);
+}
+.spread:nth-child(4) {
+  transition-delay: 0.08s;
+  transform: rotate(204.44444deg);
+}
+.spread:nth-child(4) .unit {
+  transition-delay: 0.16s;
+  transform: rotate(590.55556deg);
+  transform: translate(75px, 22px);
+}
+.spread:nth-child(5) {
+  transition-delay: 0.1s;
+  transform: rotate(225.55556deg);
+}
+.spread:nth-child(5) .unit {
+  transition-delay: 0.2s;
+  transform: rotate(569.44444deg);
+  transform: translate(75px, -60px);
+}
+.spread:nth-child(6) {
+  transition-delay: 0.12s;
+  transform: rotate(246.66667deg);
+}
+.spread:nth-child(6) .unit {
+  transition-delay: 0.24s;
+  transform: rotate(548.33333deg);
+  transform: translate(75px, -210px);
+}
+.spread:nth-child(7) {
+  transition-delay: 0.14s;
+  transform: rotate(267.77778deg);
+}
+.spread:nth-child(7) .unit {
+  transition-delay: 0.28s;
+  transform: rotate(527.22222deg);
+  transform: translate(75px, -210px);
+}
+.spread:nth-child(8) {
+  transition-delay: 0.16s;
+  transform: rotate(288.88889deg);
+}
+.spread:nth-child(8) .unit {
+  transition-delay: 0.32s;
+  transform: rotate(506.11111deg);
+  transform: translate(20px, -275px);
+}
+.spread:nth-child(9) {
+  transition-delay: 0.18s;
+  transform: rotate(310deg);
+}
+.spread:nth-child(9) .unit {
+  transition-delay: 0.36s;
+  transform: rotate(485deg);
+  transform: translate(-100px, -320px);
+}
+
+/* END .icon:hover */
+.unit {
+  position: absolute;
+  background: red;
+  font-size: 60%;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: dodgerblue;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+.icon {
+  top: 50%;
+  margin-top: -75px;
+}
+    </style>
+</head>
+<body>
+
+
+  <img src="images/mario.jpg"  data-toggle="collapse" data-target="#demo">
+  <div id="demo" class="collapse">
+                         
+                <p class="spread">
+                      <a class="unit" href="#">1</a>
+                </p>                  
+                <p class="spread">
+                      <a class="unit" href="#">2</a>
+                </p>                  
+                <p class="spread">
+                      <a class="unit" href="#">3</a>
+                </p>                  
+                <p class="spread">
+                      <a class="unit" href="#">4</a>
+                </p>                  
+                <p class="spread">
+                      <a class="unit" href="#">5</a>
+                </p>                  
+                <p class="spread">
+                      <a class="unit" href="#">6</a>
+                </p>                  
+                <p class="spread">
+                      <a class="unit" href="#">7</a>
+                </p>                  
+                <p class="spread">
+                      <a class="unit" href="#">8</a>
+                </p>                  
+                <p class="spread">
+                      <a class="unit" href="#">9</a>
+                </p>                  
+              </ul>
+          </div>   
+    
+</div>
+
+
+</body>
+</html>
